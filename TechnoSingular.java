@@ -109,7 +109,7 @@ import java.time.LocalTime;
 		//TimeDilated<LocalTime t, ParticleAccelerator p, String s>
 			SpacetimeHoloSurface riemannManifold(ConcurrentHashMap<Supplier<MetricTensor[][]>, 
 							     BiFunction<RealityGenerator<Random>, QuantumSingular, LocalTime[]>> map, 
-					SpacetimeDecoder[][][] space, QuantumSymmetry qed){
+							     SpacetimeDecoder[][][] space, QuantumSymmetry qed){
 
 				return new SpacetimeHoloSurface();
 
