@@ -32,7 +32,12 @@ import java.time.LocalTime;
 		}
 		
 	//main()
-		public static void main(String[] args) { }
+		public static void main(String[] args) {
+		
+			//TODO: check under-the-hood: generics cast/conflicts: ClassCastException
+			//lines 79 & 113: RealityGenerator <QuantumSymmetry[]> | <Random> (Line 114 on: Gist)
+		
+		}
 		
 	}//end Parent iFace TechnoSingular
 	
@@ -59,7 +64,6 @@ import java.time.LocalTime;
 			 * yet exhibits the qualities of both...
 			 * Buddhism's poetic description of quantum state
 			 */
-
 		//static fields:
 			static double quantumField;
 			static double higgsField;
@@ -70,7 +74,6 @@ import java.time.LocalTime;
 			static double strangeQuark;
 			static double topQuark;
 			static double bottomQuark;
-
 		}
 		//inner class 2
 		class RealityGenerator2<S> extends RealityGenerator<QuantumSymmetry[]>{
@@ -90,7 +93,6 @@ import java.time.LocalTime;
 				double planckLength;// (10^ -3 = 0.001)
 				double lengthFactor = pow(10, -35); //1.0E-35
 				double example = 0.000_000_000_000_000_000_000_000_000_000_000_01;//34 zeros after decimal place
-
 	/*
 	 Planck Time: the time required for light to travel in a vacuum 
 	 a distance of 1 Planck length, which is approximately
