@@ -13,9 +13,9 @@ import java.time.LocalTime;
 	public abstract interface TechnoSingular {
 		
 		static final SpacetimeDecoder[][][][] DECODER = 
-											new SpacetimeDecoder[10][10][10][3];
+								new SpacetimeDecoder[10][10][10][3];
 		static final SpacetimeHoloSurface[][][][] HOLO = 
-											new SpacetimeHoloSurface[10][10][10][3];
+								new SpacetimeHoloSurface[10][10][10][3];
 		
 	//1 abstract method:
 		public abstract SpacetimeDecoder[][][][] reality();
@@ -89,7 +89,7 @@ import java.time.LocalTime;
 	  //Planck Length defined as: 1.616 229(38) * 10^-35 metres //(38) = uncertainty
 				double planckLength;// (10^ -3 = 0.001)
 				double lengthFactor = pow(10, -35); //1.0E-35
-				double example = 0.000_000_000_000_000_000_000_000_000_000_000_01;//34 zeros
+				double example = 0.000_000_000_000_000_000_000_000_000_000_000_01;//34 zeros after decimal place
 
 	/*
 	 Planck Time: the time required for light to travel in a vacuum 
@@ -108,7 +108,7 @@ import java.time.LocalTime;
 			
 		//TimeDilated<LocalTime t, ParticleAccelerator p, String s>
 			SpacetimeHoloSurface riemannManifold(ConcurrentHashMap<Supplier<MetricTensor[][]>, 
-					BiFunction<RealityGenerator<Random>, QuantumSingular, LocalTime[]>> map, 
+							     BiFunction<RealityGenerator<Random>, QuantumSingular, LocalTime[]>> map, 
 					SpacetimeDecoder[][][] space, QuantumSymmetry qed){
 
 				return new SpacetimeHoloSurface();
