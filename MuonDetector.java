@@ -21,7 +21,7 @@ import static java.lang.System.out;
 			int x = (int)(random() * 6);
 			
 			Object o = new Object[] {new Muon(), new Neutrino<Muon>(),
-									 muon, antimuon, muon_neutrino, muon_antineutrino}[x];
+						 muon, antimuon, muon_neutrino, muon_antineutrino}[x];
 
 				return o;
 
