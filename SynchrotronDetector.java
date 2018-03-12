@@ -40,8 +40,7 @@ import java.time.*;
 
 	}// end iFace SynchrotronDetector
 
-	class Ship extends MuonDetector implements SynchrotronDetector, GravitonLocator,
-																		PulsarLocator{ 
+	class Ship extends MuonDetector implements SynchrotronDetector, GravitonLocator, PulsarLocator{ 
 
 				static int accelerate = 0; 
 				static double inertialDampener = -1.0;
